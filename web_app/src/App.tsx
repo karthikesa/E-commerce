@@ -7,14 +7,8 @@ const queryClient = new QueryClient();
 
 function App() {
   return (
-    
-    <QueryClientProvider client={queryClient}>
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Login />} />
-        </Routes>
-      </BrowserRouter>
-    </QueryClientProvider>
+
+     <h1>Login age</h1>
   );
 }
 
